@@ -17,4 +17,4 @@ mod tests {
     }
 }
 
-mod fm_index;
+pub mod fm_index;
