@@ -56,6 +56,15 @@ mod tests {
     }
 
     #[test]
+    fn test_construct_bwt_emojis() {
+        let text = "🍌🍍🍌🍌🍍🍌";
+        let mut index = FMIndex::new();
+        index.construct_suffix_array(text);
+
+        assert_eq!(index.construct_bwt(text), "🍌🍍🍍🍌$🍌🍌");
+    }
+
+    #[test]
     fn test_compute_r() {
         let text = "banana";
         let mut index = FMIndex::new();
