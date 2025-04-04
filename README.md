@@ -1,7 +1,7 @@
 # rust-mop
 This project is dedicated to practice Rust programming. It will mostly focus on problems related to sequence processing, e.g., Burrows-Wheeler Transform, FM-index, De Bruijn graph, etc.
 
-#### To install Rust, visit: https://doc.rust-lang.org/book/ch01-01-installation.html
+#### To install Rust and Cargo, visit: https://doc.rust-lang.org/book/ch01-01-installation.html
 
 ### To build:
 ```
